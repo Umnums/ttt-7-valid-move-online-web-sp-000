@@ -10,8 +10,10 @@ end
 
 def valid_move?(board, index)
   if (index >= 0 && index <= 8 && position_taken?(board,index))
+    puts "true"
     return true
   else
+    puts "false"
     return false
   end
 end
