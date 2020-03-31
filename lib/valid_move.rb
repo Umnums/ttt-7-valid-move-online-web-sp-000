@@ -15,5 +15,6 @@ def valid_move?(board, index)
     return false
   end
 end
-
+board = ["","",""]
+valid_move?(board, 2)
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
